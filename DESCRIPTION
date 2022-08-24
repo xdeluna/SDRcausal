@@ -3,12 +3,12 @@ Version: 0.3.0
 Date: 2020-06-11
 Title: SDRcausal
 Authors@R: c(
-	person("Filip", "Edstrom", role = c("aut", "cre"), email = "filip.edstrom@umu.se"),
+	person("Filip", "Edstrom", role = "aut", email = "filip.edstrom@umu.se"),
 	person("Xavier", "de Luna", role = "aut", email = "xavier.de.luna@umu.se"),
-	person("Mohammad", "Ghasempour", role = "aut", email = "mohammad.ghasempour@umu.se"))
-Author: Filip Edstrom [aut, cre]
+	person("Mohammad", "Ghasempour", role = c("aut", "cre"), email = "mohammad.ghasempour@umu.se"))
+Authors: Filip Edstrom [aut] Xavier de Luna [aut] Mohammad Ghasempour [aut,cre]
 Maintainer: Mohammad Ghasempour <mohammad.ghasempour@umu.se>
-Description: Provides two semiparametric estimators, imp.ate and ipw.ate.
+Description: Provides semiparametric estimators of average causal effects using sufficient dimension reduction.
 Encoding: UTF-8
 Imports: stats, ggplot2
 Suggests: nloptr
